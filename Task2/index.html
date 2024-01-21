@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="todo_list_card">
+            <!-- card headre -->
+            <div class="card_header">
+                <h1 class="title">
+                    TO-DO List
+                </h1>
+                <div class="logo">
+                    <img src="assets/images/task.svg" alt="logo" class="websitelogo_img">
+                </div>
+            </div>
+
+            <!-- card input -->
+            <div class="input_content">
+                <input type="text" class="task_input" placeholder="Enter your task" id="taskinput">
+                <button class="task_button" id="taskbutton" onclick="addTask()">Add Task</button>
+            </div>
+
+            <!-- card output -->
+            <div class="task_list_container">
+                <ul id="tasklistcontainer">
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
